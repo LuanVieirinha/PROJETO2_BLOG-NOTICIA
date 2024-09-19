@@ -34,15 +34,26 @@ nav {
     text-align: left;
     background-color: var(--cor1);
     border-bottom: 0.1rem solid var(--cor2);
-    padding: 0.9rem 0;
+    padding: 0.9rem 10px;
     position: fixed;
     width: 100%;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
 nav div{
     border: solid 1px red;
+}
+
+.logotipo span{
+color: var(--cor5);
+
+}
+
+.menu{
+    text-decoration: none;
+    color: var(--cor4);
+    padding: 0.8rem;
 }
