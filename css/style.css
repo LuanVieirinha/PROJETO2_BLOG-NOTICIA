@@ -1,0 +1,48 @@
+
+/* Importa a font Poppins (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variáveis Globais */
+:root {
+    --cor1: #f9f9f9;
+    --cor2: #dddddd;
+    --cor3: #999999;
+    --cor4: #232323;
+    --cor5: #442bd0;
+}
+
+/* Reset (limpa as configurações padrão) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+nav {
+    font-size: 1.5rem;
+    font-weight: 700; /* bold */
+    text-align: left;
+    background-color: var(--cor1);
+    border-bottom: 0.1rem solid var(--cor2);
+    padding: 0.9rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav div{
+    border: solid 1px red;
+}
