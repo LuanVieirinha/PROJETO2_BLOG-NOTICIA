@@ -56,4 +56,20 @@ color: var(--cor5);
     text-decoration: none;
     color: var(--cor4);
     padding: 0.8rem;
+  
+}
+
+section{
+
+    width: 70%;
+    margin: 4.5rem auto;
+}
+
+article{
+    height: 10rem;
+}
+
+article img{
+    height: 100%;
+
 }
